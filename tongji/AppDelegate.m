@@ -26,7 +26,7 @@
     [UMCommonLogManager setUpUMCommonLogManager];
     
     [UMConfigure setLogEnabled:YES];
-    [UMConfigure initWithAppkey:@"5aefd418f43e480cf800013e" channel:@"App Store"];
+    [UMConfigure initWithAppkey:@"" channel:@"App Store"];
     [MobClick setScenarioType:E_UM_NORMAL];
     
     
