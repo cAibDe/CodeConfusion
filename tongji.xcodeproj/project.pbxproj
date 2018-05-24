@@ -15,6 +15,20 @@
 		6E5A98F820A00BCD00405EAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5A98F720A00BCD00405EAD /* main.m */; };
 		6E5A990220A00BCD00405EAD /* tongjiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5A990120A00BCD00405EAD /* tongjiTests.m */; };
 		6E5A990D20A00BCD00405EAD /* tongjiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5A990C20A00BCD00405EAD /* tongjiUITests.m */; };
+		6E5A991E20A00C7B00405EAD /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E5A991D20A00C7B00405EAD /* CoreTelephony.framework */; };
+		6E5A992020A00C8900405EAD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E5A991F20A00C8900405EAD /* SystemConfiguration.framework */; };
+		6E5A992220A00C9D00405EAD /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E5A992120A00C9D00405EAD /* libsqlite3.tbd */; };
+		6E5A992420A00CAE00405EAD /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E5A992320A00CAE00405EAD /* libz.tbd */; };
+		6E5A999420A0244900405EAD /* UMCommonLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E5A998720A0244800405EAD /* UMCommonLog.framework */; };
+		6E5A999520A0244900405EAD /* UMCommonLog.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6E5A998820A0244800405EAD /* UMCommonLog.bundle */; };
+		6E5A999620A0244900405EAD /* UTDID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E5A998B20A0244900405EAD /* UTDID.framework */; };
+		6E5A999720A0244900405EAD /* SecurityEnvSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E5A998C20A0244900405EAD /* SecurityEnvSDK.framework */; };
+		6E5A999820A0244900405EAD /* UMCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E5A999020A0244900405EAD /* UMCommon.framework */; };
+		6E5A999920A0244900405EAD /* UMAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E5A999320A0244900405EAD /* UMAnalytics.framework */; };
+		6EC75E1120B6876D007513FC /* func.list in Resources */ = {isa = PBXBuildFile; fileRef = 6EC75E0F20B6876D007513FC /* func.list */; };
+		6EC75E1220B6876D007513FC /* confuse.sh in Resources */ = {isa = PBXBuildFile; fileRef = 6EC75E1020B6876D007513FC /* confuse.sh */; };
+		6EEEA9B420B0012B00EBA09D /* PickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EEEA9B320B0012B00EBA09D /* PickerView.m */; };
+		6EEEA9B620B0013900EBA09D /* PickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EEEA9B520B0013900EBA09D /* PickerView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +65,22 @@
 		6E5A990820A00BCD00405EAD /* tongjiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tongjiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E5A990C20A00BCD00405EAD /* tongjiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tongjiUITests.m; sourceTree = "<group>"; };
 		6E5A990E20A00BCD00405EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E5A991D20A00C7B00405EAD /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		6E5A991F20A00C8900405EAD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		6E5A992120A00C9D00405EAD /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		6E5A992320A00CAE00405EAD /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		6E5A998720A0244800405EAD /* UMCommonLog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMCommonLog.framework; sourceTree = "<group>"; };
+		6E5A998820A0244800405EAD /* UMCommonLog.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMCommonLog.bundle; sourceTree = "<group>"; };
+		6E5A998B20A0244900405EAD /* UTDID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UTDID.framework; sourceTree = "<group>"; };
+		6E5A998C20A0244900405EAD /* SecurityEnvSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SecurityEnvSDK.framework; sourceTree = "<group>"; };
+		6E5A999020A0244900405EAD /* UMCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMCommon.framework; sourceTree = "<group>"; };
+		6E5A999320A0244900405EAD /* UMAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMAnalytics.framework; sourceTree = "<group>"; };
+		6EC75E0F20B6876D007513FC /* func.list */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = func.list; sourceTree = "<group>"; };
+		6EC75E1020B6876D007513FC /* confuse.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = confuse.sh; sourceTree = "<group>"; };
+		6EC75E1320B687C5007513FC /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		6EEEA9B220B0012B00EBA09D /* PickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PickerView.h; sourceTree = "<group>"; };
+		6EEEA9B320B0012B00EBA09D /* PickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickerView.m; sourceTree = "<group>"; };
+		6EEEA9B520B0013900EBA09D /* PickerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PickerView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +88,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E5A992420A00CAE00405EAD /* libz.tbd in Frameworks */,
+				6E5A999820A0244900405EAD /* UMCommon.framework in Frameworks */,
+				6E5A992220A00C9D00405EAD /* libsqlite3.tbd in Frameworks */,
+				6E5A999720A0244900405EAD /* SecurityEnvSDK.framework in Frameworks */,
+				6E5A992020A00C8900405EAD /* SystemConfiguration.framework in Frameworks */,
+				6E5A991E20A00C7B00405EAD /* CoreTelephony.framework in Frameworks */,
+				6E5A999420A0244900405EAD /* UMCommonLog.framework in Frameworks */,
+				6E5A999620A0244900405EAD /* UTDID.framework in Frameworks */,
+				6E5A999920A0244900405EAD /* UMAnalytics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +120,13 @@
 		6E5A98DC20A00BCB00405EAD = {
 			isa = PBXGroup;
 			children = (
+				6EC75E1020B6876D007513FC /* confuse.sh */,
+				6EC75E0F20B6876D007513FC /* func.list */,
 				6E5A98E720A00BCB00405EAD /* tongji */,
 				6E5A990020A00BCD00405EAD /* tongjiTests */,
 				6E5A990B20A00BCD00405EAD /* tongjiUITests */,
 				6E5A98E620A00BCB00405EAD /* Products */,
+				6E5A991C20A00C7B00405EAD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +143,20 @@
 		6E5A98E720A00BCB00405EAD /* tongji */ = {
 			isa = PBXGroup;
 			children = (
+				6E5A998420A0244800405EAD /* iOS */,
 				6E5A98E820A00BCB00405EAD /* AppDelegate.h */,
 				6E5A98E920A00BCB00405EAD /* AppDelegate.m */,
 				6E5A98EB20A00BCB00405EAD /* ViewController.h */,
 				6E5A98EC20A00BCB00405EAD /* ViewController.m */,
+				6EEEA9B220B0012B00EBA09D /* PickerView.h */,
+				6EEEA9B320B0012B00EBA09D /* PickerView.m */,
+				6EEEA9B520B0013900EBA09D /* PickerView.xib */,
 				6E5A98EE20A00BCB00405EAD /* Main.storyboard */,
 				6E5A98F120A00BCC00405EAD /* Assets.xcassets */,
 				6E5A98F320A00BCC00405EAD /* LaunchScreen.storyboard */,
 				6E5A98F620A00BCD00405EAD /* Info.plist */,
 				6E5A98F720A00BCD00405EAD /* main.m */,
+				6EC75E1320B687C5007513FC /* PrefixHeader.pch */,
 			);
 			path = tongji;
 			sourceTree = "<group>";
@@ -132,6 +179,102 @@
 			path = tongjiUITests;
 			sourceTree = "<group>";
 		};
+		6E5A991C20A00C7B00405EAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E5A992320A00CAE00405EAD /* libz.tbd */,
+				6E5A992120A00C9D00405EAD /* libsqlite3.tbd */,
+				6E5A991F20A00C8900405EAD /* SystemConfiguration.framework */,
+				6E5A991D20A00C7B00405EAD /* CoreTelephony.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E5A998420A0244800405EAD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6E5A998520A0244800405EAD /* umcommonlog */,
+				6E5A998920A0244900405EAD /* thirdparties */,
+				6E5A998D20A0244900405EAD /* common */,
+				6E5A999120A0244900405EAD /* analytics */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		6E5A998520A0244800405EAD /* umcommonlog */ = {
+			isa = PBXGroup;
+			children = (
+				6E5A998620A0244800405EAD /* umcommonlog_ios_1.0.0 */,
+			);
+			path = umcommonlog;
+			sourceTree = "<group>";
+		};
+		6E5A998620A0244800405EAD /* umcommonlog_ios_1.0.0 */ = {
+			isa = PBXGroup;
+			children = (
+				6E5A998720A0244800405EAD /* UMCommonLog.framework */,
+				6E5A998820A0244800405EAD /* UMCommonLog.bundle */,
+			);
+			path = umcommonlog_ios_1.0.0;
+			sourceTree = "<group>";
+		};
+		6E5A998920A0244900405EAD /* thirdparties */ = {
+			isa = PBXGroup;
+			children = (
+				6E5A998A20A0244900405EAD /* thirdparties_ios_1.0.5 */,
+			);
+			path = thirdparties;
+			sourceTree = "<group>";
+		};
+		6E5A998A20A0244900405EAD /* thirdparties_ios_1.0.5 */ = {
+			isa = PBXGroup;
+			children = (
+				6E5A998B20A0244900405EAD /* UTDID.framework */,
+				6E5A998C20A0244900405EAD /* SecurityEnvSDK.framework */,
+			);
+			path = thirdparties_ios_1.0.5;
+			sourceTree = "<group>";
+		};
+		6E5A998D20A0244900405EAD /* common */ = {
+			isa = PBXGroup;
+			children = (
+				6E5A998E20A0244900405EAD /* common_ios_1.5.0 */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		6E5A998E20A0244900405EAD /* common_ios_1.5.0 */ = {
+			isa = PBXGroup;
+			children = (
+				6E5A998F20A0244900405EAD /* normal */,
+			);
+			path = common_ios_1.5.0;
+			sourceTree = "<group>";
+		};
+		6E5A998F20A0244900405EAD /* normal */ = {
+			isa = PBXGroup;
+			children = (
+				6E5A999020A0244900405EAD /* UMCommon.framework */,
+			);
+			path = normal;
+			sourceTree = "<group>";
+		};
+		6E5A999120A0244900405EAD /* analytics */ = {
+			isa = PBXGroup;
+			children = (
+				6E5A999220A0244900405EAD /* analytics_ios_5.5.0 */,
+			);
+			path = analytics;
+			sourceTree = "<group>";
+		};
+		6E5A999220A0244900405EAD /* analytics_ios_5.5.0 */ = {
+			isa = PBXGroup;
+			children = (
+				6E5A999320A0244900405EAD /* UMAnalytics.framework */,
+			);
+			path = analytics_ios_5.5.0;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,6 +285,7 @@
 				6E5A98E120A00BCB00405EAD /* Sources */,
 				6E5A98E220A00BCB00405EAD /* Frameworks */,
 				6E5A98E320A00BCB00405EAD /* Resources */,
+				6EC75E1420B6892D007513FC /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -235,9 +379,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EEEA9B620B0013900EBA09D /* PickerView.xib in Resources */,
 				6E5A98F520A00BCD00405EAD /* LaunchScreen.storyboard in Resources */,
 				6E5A98F220A00BCC00405EAD /* Assets.xcassets in Resources */,
 				6E5A98F020A00BCB00405EAD /* Main.storyboard in Resources */,
+				6EC75E1220B6876D007513FC /* confuse.sh in Resources */,
+				6E5A999520A0244900405EAD /* UMCommonLog.bundle in Resources */,
+				6EC75E1120B6876D007513FC /* func.list in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,11 +405,28 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6EC75E1420B6892D007513FC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = $PROJECT_DIR/confuse.sh;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6E5A98E120A00BCB00405EAD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EEEA9B420B0012B00EBA09D /* PickerView.m in Sources */,
 				6E5A98ED20A00BCB00405EAD /* ViewController.m in Sources */,
 				6E5A98F820A00BCD00405EAD /* main.m in Sources */,
 				6E5A98EA20A00BCB00405EAD /* AppDelegate.m in Sources */,
@@ -435,7 +600,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y8Z77UB4PH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/tongji",
+					"$(PROJECT_DIR)/tongji/iOS/umcommonlog/umcommonlog_ios_1.0.0",
+					"$(PROJECT_DIR)/tongji/iOS/thirdparties/thirdparties_ios_1.0.5",
+					"$(PROJECT_DIR)/tongji/iOS/common/common_ios_1.5.0/normal",
+					"$(PROJECT_DIR)/tongji/iOS/analytics/analytics_ios_5.5.0",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = tongji/PrefixHeader.pch;
 				INFOPLIST_FILE = tongji/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +628,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y8Z77UB4PH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/tongji",
+					"$(PROJECT_DIR)/tongji/iOS/umcommonlog/umcommonlog_ios_1.0.0",
+					"$(PROJECT_DIR)/tongji/iOS/thirdparties/thirdparties_ios_1.0.5",
+					"$(PROJECT_DIR)/tongji/iOS/common/common_ios_1.5.0/normal",
+					"$(PROJECT_DIR)/tongji/iOS/analytics/analytics_ios_5.5.0",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = tongji/PrefixHeader.pch;
 				INFOPLIST_FILE = tongji/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

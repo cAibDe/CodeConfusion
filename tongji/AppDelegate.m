@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import <UMCommon/UMCommon.h>
+#import <UMAnalytics/MobClick.h>
+#import <UMCommonLog/UMCommonLogHeaders.h>
+
 
 @interface AppDelegate ()
 
@@ -17,6 +21,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    [UMCommonLogManager setUpUMCommonLogManager];
+    
+    [UMConfigure setLogEnabled:YES];
+    [UMConfigure initWithAppkey:@"5aefd418f43e480cf800013e" channel:@"App Store"];
+    [MobClick setScenarioType:E_UM_NORMAL];
+    
+    
     return YES;
 }
 
